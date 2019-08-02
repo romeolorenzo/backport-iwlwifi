@@ -1,6 +1,6 @@
 # backport-iwlwifi
 
-I just recently bought a Dell XPS 15 2019 and installed Ubuntu 19.  The only issue I had with the transition was that WiFi was not working.  After scouring the internet for a possible solution,  I found found something that worked for me.
+I just recently bought a Dell XPS 15 2019 and installed Ubuntu 19.  The only issue I had with the transition was that WiFi was not working.  After scouring the internet for a possible solution,  I found something that worked for me.
 
 
 ## How to install the driver
@@ -25,5 +25,5 @@ Reboot
 
 
 
-The origin site where I got this:
+The origin site where I got this:<br />
 https://wireless.wiki.kernel.org/en/users/drivers/iwlwifi/core_release
