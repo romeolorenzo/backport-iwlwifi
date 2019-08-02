@@ -4,13 +4,13 @@ I just recently bought a Dell XPS 15 2019 and installed Ubuntu 19.  The only iss
 
 
 `lspci -vq`<br />
-3b:00.0 Network controller: Intel Corporation Wi-Fi 6 AX200 (rev 1a) <br />                               
-	Subsystem: Bigfoot Networks, Inc. Device 1654<br />                                                   
-	Flags: bus master, fast devsel, latency 0, IRQ 16<br />                                               
-	Memory at ed400000 (64-bit, non-prefetchable) [size=16K]<br />
-        Capabilities: <access denied><br />
-	Kernel driver in use: iwlwifi<br />
-	Kernel modules: iwlwifi<br />
+3b:00.0 Network controller: Intel Corporation Wi-Fi 6 AX200 (rev 1a) <br />
+Subsystem: Bigfoot Networks, Inc. Device 1654<br />
+Flags: bus master, fast devsel, latency 0, IRQ 16<br />                                               
+Memory at ed400000 (64-bit, non-prefetchable) [size=16K]<br />
+Capabilities: <access denied><br />
+Kernel driver in use: iwlwifi<br />
+Kernel modules: iwlwifi<br />
 
 
 ## How to install the driver
