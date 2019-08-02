@@ -3,6 +3,16 @@
 I just recently bought a Dell XPS 15 2019 and installed Ubuntu 19.  The only issue I had with the transition was that WiFi was not working.  After scouring the internet for a possible solution,  I found something that worked for me.
 
 
+`lspci -vq`<br />
+3b:00.0 Network controller: Intel Corporation Wi-Fi 6 AX200 (rev 1a)                                
+	Subsystem: Bigfoot Networks, Inc. Device 1654                                                   
+	Flags: bus master, fast devsel, latency 0, IRQ 16                                               
+	Memory at ed400000 (64-bit, non-prefetchable) [size=16K]
+        Capabilities: <access denied>
+	Kernel driver in use: iwlwifi
+	Kernel modules: iwlwifi
+
+
 ## How to install the driver
 Download the source code:<br />
 `
